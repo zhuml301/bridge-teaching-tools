@@ -30,9 +30,31 @@
 双明手分析\       8.9M
 所有 .bak 备份    已经有历史了，不再需要这些备份文件
 
-【为什么没上传到 GitHub】
-2026-11-13 实测：到 GitHub 的线路时通时断（同一时刻百度 0.17 秒正常，GitHub 连续 5 次超时）。
-账号注册卡在邮箱验证那一步，决定暂停。本地这份历史与网络无关，随时可用。
-以后线路稳定了想接上去，说一声就行。
+【已经同步到 GitHub（2026-11-13 16:52）】
+仓库：https://github.com/zhuml301/bridge-teaching-tools
+- 两份历史（v7.95、v7.96）已推送，标签都在
+- v7.96 建了版本发布，附 7 个交付件
+
+固定下载链接（永远指向最新版，发群里就用这一条）：
+    https://github.com/zhuml301/bridge-teaching-tools/releases/latest
+
+附件文件名用英文，因为 GitHub 存不住中文文件名（会被吞成 default.html）：
+    bridge-main.html      主程序     ← 日常用这个
+    bridge-full.html      全功能模式
+    bridge-hide.html      可隐藏模式
+    bridge-client.html    客户端模式
+    bridge-teach.html     授课模式
+    bridge-deal-16.html   牌组分享件 16 副
+    bridge-deal-30.html   导出验证样本 30 副
+
+已核对：从下载链接取回的 bridge-main.html，MD5 与本机主程序完全一致
+（0e46b2514f37a2e41e32fe27fc6b0cbb），字节无损。
+
+以后要更新版本：本地改完 → 提交 → 推送 → 打新标签 → 建新发布。
+直接跟我说一句「推一版上去」，我会连发布带附件一起做。
+
+【这条线路的脾气】
+GitHub 在国内是"开几分钟、关几分钟"的节奏，不是彻底不通。
+推送时如果卡住，等几分钟或换个时间段再试，不要反复重试。
 
 2026-11-13  小桥
